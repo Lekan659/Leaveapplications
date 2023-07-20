@@ -1,0 +1,52 @@
+.widgetlg{
+    flex: 4;
+    box-shadow: 10px 11px 21px -3px rgba(54,54,54,0.21);
+    -webkit-box-shadow: 10px 11px 21px -3px rgba(54,54,54,0.21);
+    -moz-box-shadow: 10px 11px 21px -3px rgba(54,54,54,0.21);
+    padding: 20px;
+}
+
+.dialogContent {
+    display: 'flex';
+    flex-direction: 'column';
+    justify-content: 'center';
+    align-items: 'center';
+    min-height: 300
+}
+
+.avatarWarning {
+    width: 80;
+    height: 80;
+    margin-bottom: 20;
+    background-color: orange
+}
+
+.avatarSuccess {
+    width: 80;
+    height: 80;
+    margin-bottom: 20;
+    background-color: green
+}
+.warningIcon{
+    font-size: 40;
+    color: "#fff"
+}
+.title {
+    font-size: 17;
+    color: "#333333";
+    font-weight: 500;
+    text-align: "center"
+}
+.description {
+    font-size: 13;
+    color: "#555555";
+    margin-top: 10;
+    text-align: "center"
+}
+.buttonContinue{
+    margin-top: 15
+}
+.buttonCancel{
+    color: red;
+    border-color: red;
+}
